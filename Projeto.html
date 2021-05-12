@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciar Convidados</title>
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Projeto.css">
+</head>
+<body>
+    <div class="head"><h1>
+
+    <a href="#" class="logo">IFEventos</a></h1>
+    <nav>
+        <ul class="menu">
+            <div class="menublock">
+            <li><a href="#">Eventos</a></li>
+            </div>
+            <div class="menublock">
+            <li><a href="#">Quem somos</a></li>
+            </div>
+            <div class="menublock">
+            <li><a href="#">Login</a></li>
+            </div>
+            <div class="menublock">
+            <li><a href="#">Cadastre-se</a></li>
+            </div>
+        </ul>
+    </nav>
+    </div>
+
+    <div id="lista">
+        <div>
+            <div id="listTitle">
+                <h3>Lista de Convidados</h3>
+            </div>
+            <ul class="listjson">
+
+            </ul>
+        </div>
+        <div class="find">
+            <div>
+                <div id="listTitle">
+                    <h3>Buscar Convidado</h3>
+                </div>
+            </div>
+            <label for="buscador">Nome: </label><input type="text" id="buscar" value=""><br>
+        </div>
+
+        <div class="card-body">
+            <div>
+                <div id="listTitle">
+                    <h3>Adicionar Convidados</h3>
+                </div>
+            </div>
+            
+            <label for="novoNome">Nome: </label><input type="text" id="novoNome"><br>
+            <button onclick="addConvidados()">Adicionar Convidado</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h3>Copyright® All Rights Reserved</h3>
+        <p>AdmEventos®, and AdmEventos Intelligence® are among some of the federally registered 
+    trademarks of EventosAdm, LLC and may only be used with explicit written permission.</p>
+    </div>
+    <script src="./JSON.js"></script>
+    <script src="projeto.js"></script>
+</body>
+</html>

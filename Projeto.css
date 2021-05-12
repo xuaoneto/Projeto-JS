@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo {
+    font-family: 'Chilanka', cursive;
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+
+.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.5rem;
+    margin-top: 20px;
+}
+
+.menublock{
+    display: flex;
+    flex-direction: row;
+    border: 1px;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    width: auto;
+    margin-right: 20px;
+    padding: .5rem;
+    border-bottom: 0px;
+}
+
+.menublock:hover{
+    border-bottom: 5px solid black;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-family: 'Chilanka', cursive;
+    color: black;
+    font-size: medium;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(255, 218, 0);
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+}
+
+.footer h3, p{
+    font-family: 'Chilanka';
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer h3{
+    font-family: 'Arial', cursive;
+    margin-top: 30px;
+}
+
+#listTitle{
+    background-color: black;
+    width: 250px ;
+    border-radius: 4px; 
+}
+
+#listTitle h3{
+    font-family: 'Chilanka';
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.listjson{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0
+}
+
+
+.convidado{
+    list-style: none;
+    font-family: 'Chilanka';
+    margin-bottom: 0.5rem;
+    padding: 0.1rem;
+    text-align: center;
+    display: none;
+}
+.visible{
+    display: block
+}
+
+#lista{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+.find{
+    display: flex;
+    flex-direction: column;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+} 
+button{
+    font-family: 'Chilanka';
+    color: white;
+    margin: 0 auto;
+    background-color: black;
+    transition:  1s;
+    border-radius: 4px;
+    
+    
+}
+button:hover{
+    transform: scale(1.1);
+    transition:  1s;
+}
+
+label{
+    font-family: 'Chilanka';
+}
